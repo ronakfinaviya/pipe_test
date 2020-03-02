@@ -44,5 +44,11 @@ cd /Users/ronakfinavia/PycharmProjects/pipe_test
       }
     }
 
+    stage('End') {
+      steps {
+        echo 'Finished'
+      }
+    }
+
   }
 }
