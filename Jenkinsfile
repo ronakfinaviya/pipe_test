@@ -15,7 +15,7 @@ cd /Users/ronakfinavia/PycharmProjects/pipe_test
       }
     }
 
-    stage('Test1') {
+    stage('Test') {
       parallel {
         stage('Test1') {
           steps {
