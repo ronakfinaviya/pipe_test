@@ -1,6 +1,6 @@
 def main():
-    A = 15
-    B = 20
+    A = 150
+    B = 200
     C = A + B
     print(C)
 
