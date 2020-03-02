@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git Pull') {
       steps {
-        git(url: 'https://github.com/ronakfinaviya/pipe_test.git', poll: true)
+        git(url: 'https://github.com/ronakfinaviya/pipe_test.git', poll: true, branch: 'master')
       }
     }
 
